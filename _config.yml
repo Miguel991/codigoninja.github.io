@@ -16,7 +16,7 @@
 title: Ninja Binario
 email: hectormiguelc300@gmail.com
 description: > # this means to ignore newlines until "baseurl:"
-  Ninja Binario es un blog sobre programación, mucha matemáticas, ideas de software y tecnologías en general.
+  Ninja Binario es un blog sobre programación, mucha matemática, ideas de software y tecnologías en general.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 github_username:  Miguel991
