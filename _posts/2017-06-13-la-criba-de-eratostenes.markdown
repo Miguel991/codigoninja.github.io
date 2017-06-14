@@ -7,7 +7,7 @@ date: 2017-06-13 19:50:04 -0300
 
 ### La criba de Eratóstenes
 
-Supongamos que queremos realizar una lista de todos los números primos(hasta ahora imposible) o por los menos algunos de ellos, por ejemplo los números primos entre 2 y 100 mil. Para esto vamos a seguir un algoritmo hecho tres siglos antes de Cristo en Alejandría por el griego Eratóstenes, el cual funciona de la siguiente manera. Colocamos los números del 2 al 120 en una lista, se toma el primer elemento de la lista en este caso el 2 y se elimina de la lista todos sus múltiplos, luego tomamos el siguiente de la lista y volvemos a eliminar todos sus múltiplos y así sucesivamente hasta recorrer toda la lista, los elementos que queden finalmente en la lista serán nuestros numero primos.
+Supongamos que queremos realizar una lista de todos los números primos(hasta ahora imposible) o por lo menos algunos de ellos, por ejemplo los números primos entre 2 y 100 mil. Para esto vamos a seguir un algoritmo hecho tres siglos antes de Cristo en Alejandría por el griego Eratóstenes, el cual funciona de la siguiente manera. Colocamos los números del 2 al 120 en una lista, se toma el primer elemento de la lista en este caso el 2 y se elimina de la lista todos sus múltiplos, luego tomamos el siguiente de la lista y volvemos a eliminar todos sus múltiplos y así sucesivamente hasta recorrer toda la lista, los elementos que queden finalmente en la lista serán nuestros numero primos.
 
 Números Primos: los números primos son aquellos números naturales que no tienen divisores, mas allá de si mismo y de 1.
 
@@ -17,7 +17,7 @@ Veamos la siguiente imagen para entender mejor como funciona el algoritmo de Era
 
 
 El siguiente código java es una adaptación de la criba, con el cual 
-generamos los números primos desde el 2 hasta el 100.000. 
+generamos los números primos desde el 2 hasta el 100 mil. 
 
 
 
@@ -27,11 +27,11 @@ generamos los números primos desde el 2 hasta el 100.000.
 public class CribaEratostenes {
 	
 	//Mis observaciones
-	//Cada 10 numeros naturales solamente puede haber como maximo 4 numeros primos 
-	//Existen rangos de 10 numeros donde no existen numeros primos como por ejemplo
+	//Cada 10 números naturales solamente puede haber como maximo 4 números primos 
+	//Existen rangos de 10 numeros donde no existen números primos como por ejemplo
 	//entre el 200 y el 210, que es el primero de los casos.
 	//Tambien existe un patron de ceros que comienza en  101---103---107---109 y se repite 
-	//Seguro tendra mucho que ver con la famosa funcion z 
+	//Seguro tendra mucho que ver con la famosa función z 
 
 	public static void main(String[] args) {
 		primos();
