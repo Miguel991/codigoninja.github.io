@@ -47,7 +47,7 @@ public class CribaEratostenes {
 		int desde = 2;
 		int hasta = 99999;
 
-		//rellenamos la lista con todos los numeros desde el 2 hasta el 2000
+		//rellenamos la lista con todos los numeros desde el 2 hasta el 100 mil
 		for (int i = 0; i < hasta; i++) {
 			lista.add(desde);
 			desde++;
